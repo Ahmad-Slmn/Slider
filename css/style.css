@@ -125,12 +125,12 @@ body {
     border-radius: 5px
 }
 
-/*
 @media(max-width:767px) {
 
     .slider-container,
     .slider-controls {
-        width: 100%
+        width: 97%
     }
+    
+    .slider-container{height: 500px}
 }
-*/
