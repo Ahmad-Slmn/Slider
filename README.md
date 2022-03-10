@@ -1,2 +1,2 @@
 # Slider
-I Do This Slider With Mr Osama Elzero
+I Do This slide With Mr Osama Elzero
