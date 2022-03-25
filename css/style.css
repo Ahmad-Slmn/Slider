@@ -91,6 +91,11 @@ body {
     cursor: no-drop;
 }
 
+.slider-controls .prev,
+.slider-controls .next {
+    border-radius: 6px
+}
+
 .slider-controls .indicators {
     width: 60%;
     float: left;
@@ -116,7 +121,7 @@ body {
     border-radius: 4px;
     margin: 0 2px;
     line-height: 28px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .slider-controls .indicators ul li.active {
@@ -131,6 +136,8 @@ body {
     .slider-controls {
         width: 97%
     }
-    
-    .slider-container{height: 500px}
+
+    .slider-container {
+        height: 500px
+    }
 }

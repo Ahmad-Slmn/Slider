@@ -1,5 +1,7 @@
+/* global document */
+
 // Get slider Items
-var sliderImgs = Array.from(document.querySelectorAll(".slider-container img"));
+var sliderImgs = Array.from(document.querySelectorAll(".slider-container img"))
 
 // Get Number Of Slider
 var slideCount = sliderImgs.length;
@@ -43,13 +45,13 @@ var UlLi = Array.from(document.querySelectorAll("#ul li"));
 var ulId = document.getElementById("ul");
 
 // Loop On All Li
-for(var i = 0; i < UlLi.length; i++){
-    
-    UlLi[i].onclick = function(){
-        
-        
+for (var i = 0; i < UlLi.length; i++) {
+
+    UlLi[i].onclick = function () {
+
+
         curentSlider = parseInt(this.getAttribute("data-index"));
-        
+
         checker()
     }
 }
@@ -97,7 +99,6 @@ function checker() {
 
 }
 
-
 // Remove All Active Class
 function removeActive() {
 
@@ -118,7 +119,7 @@ function removeActive() {
 function nextslide() {
 
     if (next.classList.contains("disabled")) {
-        
+
         return false;
 
     } else {
@@ -131,12 +132,12 @@ function nextslide() {
 // Prev Slide Function
 function prevslide() {
 
-      if (prev.classList.contains("disabled")) {
-        
+    if (prev.classList.contains("disabled")) {
+
         return false;
 
     } else {
-       curentSlider--;
+        curentSlider--;
 
         checker()
     }
